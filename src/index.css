@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nofade-gradient {
+  --tw-gradient-stops: var(--tw-gradient-from, rgba(0, 0, 0, 0)) 50%,
+    var(--tw-gradient-to, rgba(0, 0, 0, 0)) 50%;
+}
+
+.dollar::before {
+  content: "$";
+}
+
+body {
+  margin: 0;
+}
